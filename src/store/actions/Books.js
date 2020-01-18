@@ -3,9 +3,6 @@ export const DEL_FAVOURITE = 'del_favourite'
 export const SET_FAVOURITE = 'set_favourite'
 
 
-
-
-
 export const fetchFavourite = () => {
     return async (dispatch, getState) => {
         const userId = getState().Auth.userId
@@ -56,7 +53,6 @@ export const delFavourite = (book) => {
             {
                 method: 'DELETE'
             })
-        const resData = await response.json()
 
         dispatch({ type: DEL_FAVOURITE, book })
     }

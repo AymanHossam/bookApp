@@ -1,12 +1,11 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { View, Text, FlatList, StyleSheet, Button, Picker, TextInput } from 'react-native'
-import Book from '../components/Book'
+import { View, Text, FlatList, StyleSheet, Picker, TextInput } from 'react-native'
 import { useSelector, useDispatch } from 'react-redux'
-import MainMenu from '../components/Menu'
-import * as authActions from '../store/actions/Auth';
 import { LinearGradient } from 'expo-linear-gradient';
 
-
+import Book from '../components/Book'
+import MainMenu from '../components/Menu'
+import * as authActions from '../store/actions/Auth';
 
 const BookOverview = (props) => {
 
@@ -166,7 +165,7 @@ const styles = StyleSheet.create({
         width: 220
     },
     input: {
-
+        width: '100%',
         paddingHorizontal: 10
     }
 })

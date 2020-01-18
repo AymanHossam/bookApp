@@ -1,4 +1,4 @@
-class favBook {
+class FavBook {
     constructor(id, title, isbn, pageCount, publishedDate, thumbnailUrl, shortDescription, longDescription, status, authors, categories) {
         this.id = id
         this.title = title;
@@ -14,5 +14,5 @@ class favBook {
     }
 }
 
-export default favBook;
+export default FavBook;
 

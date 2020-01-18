@@ -1,10 +1,10 @@
 import React, { useEffect, useCallback } from 'react'
 import { View, Text, StyleSheet, Image } from 'react-native'
 import { useDispatch, useSelector } from "react-redux";
-import * as FavouritesActions from "../store/actions/Books";
 import { AntDesign } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
 
+import * as FavouritesActions from "../store/actions/Books";
 
 
 import Books from '../data/Books'

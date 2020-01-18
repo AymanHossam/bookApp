@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-
-import { Text, View, Button, TouchableNativeFeedback } from 'react-native';
-import Menu, { MenuItem, MenuDivider, Position } from "react-native-enhanced-popup-menu"
-import { Ionicons } from '@expo/vector-icons';
+import React from 'react';
+import { Text, View, TouchableNativeFeedback } from 'react-native';
+import Menu, { MenuItem, Position } from "react-native-enhanced-popup-menu"
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 
 
@@ -27,8 +26,8 @@ const MainMenu = (props) => {
 
 
             <TouchableNativeFeedback onPress={ onPress } >
-                <Ionicons
-                    name={ 'md-menu' }
+                <MaterialCommunityIcons
+                    name={ 'dots-vertical' }
                     size={ 23 }
                     color='orange'
                 /></TouchableNativeFeedback>

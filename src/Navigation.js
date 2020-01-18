@@ -32,7 +32,7 @@ const booksNavigator = createStackNavigator({
     navigationOptions: {
         tabBarIcon: tabConfig => (
             <FontAwesome
-                name={ Platform.OS === 'android' ? 'book' : 'ios-cart' }
+                name='book'
                 size={ 23 }
                 color={ tabConfig.tintColor }
             />
@@ -49,7 +49,7 @@ const favStackNavigator = createStackNavigator({
     navigationOptions: {
         tabBarIcon: tabConfig => (
             <AntDesign
-                name={ Platform.OS === 'android' ? 'star' : 'ios-cart' }
+                name='star'
                 size={ 23 }
                 color={ tabConfig.tintColor }
             />

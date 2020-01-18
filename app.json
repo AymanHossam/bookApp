@@ -24,7 +24,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.home.books"
+    },
+    "android": {
+      "package": "com.home.books"
+    },
+    "description": ""
   }
 }

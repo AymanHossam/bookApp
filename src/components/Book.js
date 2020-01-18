@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, StyleSheet, Image, TouchableOpacity, Platform } from 'react-native'
+import { View, StyleSheet, Image, TouchableOpacity, Platform } from 'react-native'
 import { TouchableNativeFeedback } from 'react-native-gesture-handler'
 
 
